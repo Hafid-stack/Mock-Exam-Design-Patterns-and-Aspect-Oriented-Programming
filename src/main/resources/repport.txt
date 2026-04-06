@@ -1,0 +1,20 @@
+Design Patterns Used in the Project
+
+1. Composite Pattern
+The Composite pattern is used to allow grouping of figures.
+The class Group extends Figure and contains a list of Figure objects.
+This allows a group to contain other groups and figures.
+
+2. Observer Pattern
+The Observer pattern is used between Configuration and Figure.
+Configuration is the Subject and Figure implements the Observer interface.
+When configuration changes, all figures are notified and updated.
+
+3. Strategy Pattern
+The Strategy pattern is used in the Drawing class.
+Drawing contains a ProcessingStrategy object.
+Different algorithms (StrategyA, StrategyB) can be selected at runtime.
+
+4. Aspect-Oriented Programming (AOP)
+Logging and Security aspects are planned using LoggingAspect and SecurityAspect classes.
+These aspects will handle logging and authentication without modifying business code.

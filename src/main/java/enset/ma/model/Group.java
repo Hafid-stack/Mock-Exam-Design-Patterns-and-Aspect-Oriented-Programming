@@ -1,8 +1,7 @@
-package enset.ma;
+package enset.ma.model;
 
 import java.util.List;
 import java.util.ArrayList;
-import java.util.List;
 
 public class Group extends Figure {
 

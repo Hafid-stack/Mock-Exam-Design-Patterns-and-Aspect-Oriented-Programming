@@ -1,4 +1,4 @@
-package enset.ma;
+package enset.ma.model;
 
 public class Point {
 

@@ -1,4 +1,5 @@
-package enset.ma;
+package enset.ma.model;
+
 public class Rectangle extends Figure {
 
     private Point topLeft;

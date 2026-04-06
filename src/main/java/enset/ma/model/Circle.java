@@ -1,4 +1,5 @@
-package enset.ma;
+package enset.ma.model;
+
 public class Circle extends Figure {
 
     private Point center;

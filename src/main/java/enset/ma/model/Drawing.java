@@ -1,9 +1,10 @@
-package enset.ma;
+package enset.ma.model;
+
+import enset.ma.strategy.ProcessingStrategy;
 
 import java.util.List;
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.List;
 
 public class Drawing implements Serializable {
 

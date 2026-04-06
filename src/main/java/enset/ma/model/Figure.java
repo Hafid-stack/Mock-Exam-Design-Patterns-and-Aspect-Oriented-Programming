@@ -1,6 +1,9 @@
-package enset.ma;
+package enset.ma.model;
 
-public abstract class Figure implements Observer{
+import enset.ma.observer.Configuration;
+import enset.ma.observer.Observer;
+
+public abstract class Figure implements Observer {
 
     protected int thickness;
     protected String borderColor;

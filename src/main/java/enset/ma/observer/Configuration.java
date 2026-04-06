@@ -1,8 +1,7 @@
-package enset.ma;
+package enset.ma.observer;
 
 import java.util.List;
 import java.util.ArrayList;
-import java.util.List;
 
 public class Configuration {
 

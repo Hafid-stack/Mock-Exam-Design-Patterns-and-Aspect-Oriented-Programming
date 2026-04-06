@@ -1,6 +1,7 @@
-package enset.ma;
+package enset.ma.strategy;
 
-import java.util.List;
+import enset.ma.model.Figure;
+
 import java.util.List;
 
 public interface ProcessingStrategy {
